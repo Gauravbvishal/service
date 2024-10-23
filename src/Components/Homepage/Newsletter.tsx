@@ -19,15 +19,15 @@ export const Newsletter = () => {
   };
 
   return (
-    <section className="container mx-auto m-6 max-w-7xl px-4 sm:px-6 lg:px-8 relative font-serif bg-gray">
-      <div className='absolute inset-0 bg-black/30'></div>
+    <section className="container mx-auto m-6 max-w-7xl px-4 sm:px-6 lg:px-8 relative font-serif ">
+      <div className='absolute inset-0 bg-yellow'></div>
 
       <div className="grid items-left align-left gap-2  py-[15%] px-[6%] dark:bg-zinc-900 md:p-[6%] lg:grid-cols-2 relative z-20">
         <div>
-        <h1 className='text-4xl font-bold text-white '>
+        <h1 className='text-4xl font-bold text-white justify-left'>
           Join Our News Letter
         </h1>
-          <p className="mt-5 text-lg text-neutral-200">
+          <p className="mt-5 text-lg text-neutral-200 text-justify">
             Join our newsletter to get new posts before anyone else, I&apos;ll
             send you an email with links to all of the articles.
           </p>

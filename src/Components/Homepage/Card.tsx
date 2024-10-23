@@ -8,8 +8,8 @@ const CardContainer: React.FC = () => {
         // Implement navigation or other functionality here
     };
 
-    return (
-        <div className="container mx-auto px-4 py-8 flex flex-wrap justify-evenly">
+    return (  
+        <div className="container mx-auto px-4 py-8 flex flex-wrap justify-evenly text-justify">
             <div className="box bg-gray-100 border border-gray-300 rounded-lg p-4 m-4 shadow-lg w-full max-w-xs">
                 <div className="content">
                     <h2 className="text-xl font-semibold">Card One</h2>
@@ -27,7 +27,7 @@ const CardContainer: React.FC = () => {
 
             <div className="box bg-gray-100 border border-gray-300 rounded-lg p-4 m-4 shadow-lg w-full max-w-xs">
                 <div className="content">
-                    <h2 className="text-xl font-semibold">Card Two</h2>
+                    <h2 className="text-xl font-semibold border-10">Card Two</h2>
                     <p className="mt-2 text-gray-700">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, velit est pariatur earum et magnam unde atque quo natus quae quas qui fugit voluptas 
                     </p>

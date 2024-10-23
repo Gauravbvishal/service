@@ -2,6 +2,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import { sampleArcs } from "@/data/Samplearcs";
+import HeroSection from "./StarBackgroun";
+
 
 const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
   ssr: false,
@@ -32,11 +34,10 @@ export function GlobeDemo() {
   };
 
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      {/* Adjusting the responsive globe container for iPad Pro */}
-      <div className="w-full max-w-[90vw] h-[50vh] sm:h-[65vh] md:h-[70vh] lg:h-[75vh] xl:h-[80vh]">
-        <World data={sampleArcs} globeConfig={globeConfig} />
-      </div>
-    </div>
+    
+          <div className="w-full h-[60vh] ">
+            <World data={sampleArcs} globeConfig={globeConfig} />
+          </div>
+        
   );
 }
